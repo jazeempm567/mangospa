@@ -260,7 +260,7 @@ button {
 }
 
 .read_more:hover {
-    background: #fdc001;
+    background: #AB0000;
     color: #fff;
 }
 
@@ -313,7 +313,7 @@ button {
 /*-- header --*/
 
 .header-area {
-    border-top: #fdc001 solid 40px;
+    border-top: #AB0000 solid 30px;
     width: 100%;
 }
 
@@ -353,10 +353,10 @@ button {
 }
 
 .site-navbar ul li a:hover {
-    color: #fdc001;
+    color: #AB0000;
 }
 .site-navbar ul li a.active {
-    color: #fdc001;
+    color: #AB0000;
 }
 
 /* navbar regular css end */
@@ -593,7 +593,7 @@ button {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-prev:hover {
     color: #fff;
-    background: #fdc001;
+    background: #AB0000;
 }
 
 
@@ -603,14 +603,13 @@ button {
 /** appointment  **/
 
 .appointment {
-    background: #fdc001;
+    background: #AB0000;
     padding-top: 90px;
     padding-bottom: 90px;
 }
 
 .appointment .titlepage p {
     padding-top: 10px;
-    padding-inline: 200px;
 
 }
 
@@ -657,7 +656,7 @@ button {
 }
 
 .main_form .send_btn:hover {
-    background-color: #fdc001;
+    background-color: #AB0000;
     transition: ease-in all 0.5s;
     box-shadow: 0 0 16px 3px #635d5d38;
     color: #fff;
@@ -719,7 +718,7 @@ button {
 }
 
 #ho_shad:hover .read_more {
-    background: #fdc001;
+    background: #AB0000;
     transition: ease-in all 0.5s;
     color: #fff;
 }
@@ -767,7 +766,7 @@ button {
 }
 
 .our_pri {
-    background: #fdc001;
+    background: #AB0000;
     padding: 30px 20px 45px 20px;
     position: relative;
     z-index: 99;
@@ -849,7 +848,7 @@ button {
 }
 
 .yellow {
-    background: #fdc001 !important;
+    background: #AB0000 !important;
 }
 
 .nostrud {
@@ -884,7 +883,7 @@ button {
 /** about section **/
 
 .about {
-    background: #fdc001;
+    background: #AB0000;
     padding-top: 90px;
     padding-bottom: 90px;
 }
@@ -940,6 +939,9 @@ button {
 .about .read_more:hover {
     box-shadow: 0 0 16px 3px #635d5d38;
 }
+.main_form .read_more {
+margin: 0 auto;
+}
 
 
 /** end about section **/
@@ -976,7 +978,7 @@ button {
     display: block;
     line-height: 20px;
     font-size: 15px;
-    color: #fdc001;
+    color: #AB0000;
 }
 
 .test_box p {
@@ -1019,7 +1021,7 @@ button {
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-prev:hover {
     color: #000;
-    background: #fdc001;
+    background: #AB0000;
 }
 
 
@@ -1029,7 +1031,6 @@ button {
 /** footer **/
 
 .footer {
-    margin-top: 90px;
     padding-top: 90px;
     background: #2d2d2d;
     text-align: center;
@@ -1059,7 +1060,7 @@ button {
     content: "";
     width: 15px;
     height: 15px;
-    background: #fdc001;
+    background: #AB0000;
     top: 5px;
     border-radius: 20px;
     left: -20px;
@@ -1085,7 +1086,7 @@ ul.menu_footer li a {
 }
 
 ul.menu_footer li a:hover {
-    color: #fdc001;
+    color: #AB0000;
 }
 
 .newsl {
@@ -1105,7 +1106,7 @@ ul.menu_footer li a:hover {
 .subsci_btn {
     font-size: 16px;
     transition: ease-in all 0.5s;
-    background-color: #fdc001;
+    background-color: #AB0000;
     text-transform: uppercase;
     color: #fff;
     display: block;
@@ -1121,7 +1122,7 @@ ul.menu_footer li a:hover {
 
 .subsci_btn:hover {
     transition: ease-in all 0.5s;
-    color: #fdc001;
+    color: #AB0000;
     background-color: #fff;
 }
 
@@ -1143,7 +1144,7 @@ ul.top_infomation li {
 
 ul.top_infomation li i {
     margin-right: 5px;
-    color: #fdc001;
+    color: #AB0000;
     text-align: center;
 }
 
@@ -1152,7 +1153,7 @@ ul.top_infomation li a {
 }
 
 ul.top_infomation li a:hover {
-    color: #fdc001;
+    color: #AB0000;
 }
 
 .copyright {
@@ -1163,7 +1164,7 @@ ul.top_infomation li a:hover {
 }
 
 .follow h3 {
-    color: #fdc001;
+    color: #AB0000;
     font-size: 23px;
     padding-bottom: 20px;
     line-height: 23px;
@@ -1190,7 +1191,7 @@ ul.social_icon li a i {
 ul.social_icon li a i:hover {
     color: #fff;
     transition: ease-in all 0.5s;
-    background: #fdc001;
+    background: #AB0000;
 }
 
 .copyright p {
@@ -1207,7 +1208,7 @@ ul.social_icon li a i:hover {
 }
 
 .copyright a:hover {
-    color: #fdc001;
+    color: #AB0000;
 }
 
 
@@ -1231,4 +1232,43 @@ ul.social_icon li a i:hover {
 
 .portfolio_page .footer {
     margin-top: 60px;
+}
+
+.float1{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.whatsapp-float{
+	margin-top:16px;
+}
+
+
+.float2{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:110px;
+	right:40px;
+	background-color:#363636;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.call-float{
+	margin-top:16px;
 }
